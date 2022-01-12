@@ -1,0 +1,118 @@
+#navbar{
+    /* background-color: #85dcb8; */
+    /* background-color: #647ffa; */
+    background-image: linear-gradient(to right, #c05d9f, #9f4e8d, #803f7a, #623166, #462352);
+}
+#btn-nav{
+    background-color: #41b3a3;
+    color: beige;
+    opacity: .8;
+}
+#btn-nav:hover{
+    background-color: #41b3a3;
+    color: #fff;
+    opacity: 1;
+}
+#nav-img{
+    height: 50px;
+    width: 80px;
+    border-radius: 100px;
+}
+
+/* CSS for the CUSTOMEr REGISTRATION PAGE */
+
+.form {
+    padding-left: 25em;
+    padding-right: 25em;
+    padding-top: 5em;
+    padding-bottom: 8em;
+    /* background-color: #4eabb8; */
+    background-image: linear-gradient(to right, #c05d9f, #b75aa2, #ad57a5, #a155a8, #9554ab);
+}
+
+.form .forms {
+    /* background-color: #55b8c5; */
+    background-image: linear-gradient(to right, #c05d9f, #9f4e8d, #803f7a, #623166, #462352);
+    padding: 80px;
+    /* box-shadow: 10px 10px 10px rgb(179, 179, 179) ; */
+    border-radius: 10px;
+    color: white;
+    /* opacity: .5; */
+}
+
+/* CSS for the CUSTOMEr CONTENT PAGE */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.main1 {
+ display: grid;
+ 
+ background-image: linear-gradient(to right, #e7336a, #f05295, #f371bd, #f08fe0, #eaabff);
+}
+
+.main1 .img1 {
+    padding:100px;
+    padding-bottom: 0%;
+}
+
+.main1 .img1 .img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10em;
+    
+}
+
+.main1 .name {
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+    background-image: linear-gradient(to right, #e7336a, #f05295, #f371bd, #f08fe0, #eaabff);
+    padding-top: 10px;
+}
+
+.main1 .bio {
+    background-image: linear-gradient(to right, #e7336a, #f05295, #f371bd, #f08fe0, #eaabff);
+    color: #fff;
+    padding-left: 200px;
+}
+
+.main1 .other {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding-left: 16em;
+    padding-bottom: 3em;
+    background-image: linear-gradient(to right, #e7336a, #f05295, #f371bd, #f08fe0, #eaabff);
+}
+
+.btns {
+    background-color: rgb(235, 190, 190); 
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 120%;
+    width: 4em;
+    height: 4em;
+  }
+  
+  
+  .btns:hover {
+    background-color: rgb(236, 59, 142);
+    box-shadow: 2px 2px 2px rgb(255, 167, 197) ;
+  }
+
+
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    margin-top: 0;
+    padding: 15px;
+    color: rgb(254, 255, 249);
+    text-align: right;
+    position: sticky;
+}
